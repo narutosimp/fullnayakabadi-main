@@ -1,0 +1,1 @@
+https://www.flaticon.com/free-icon/customer-feedback_4281663?term=best+rate&page=1&position=5&origin=search&related_id=4281663
