@@ -466,6 +466,64 @@ a:focus {
   width: 40%;
 }
 
+.container_scrap {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.container_scrap ul {
+  list-style: none;
+  margin-top: 15px;
+}
+.container_scrap li img {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.container_scrap h1 {
+  font-size: 2rem;
+  margin-top: 2.1rem;
+  margin-bottom: 5rem;
+  font-weight: 800;
+  align-items: center;
+  text-align: center;
+  color: rgba(52, 230, 96, 0.799);
+  word-spacing: -1px;
+}
+.container_scrap .section_households .right_sub_heading {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-top: 2.2rem;
+  margin-bottom: 0.7rem;
+  color: #000;
+}
+.container_scrap .section_households .right_sub_heading ul li {
+  color: #000;
+  margin-top: 15px;
+  word-spacing: 11px;
+}
+.container_scrap .section_businesses .left_sub_heading {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-top: 2.2rem;
+  color: #000;
+  margin-bottom: 0.7rem;
+}
+.container_scrap .section_businesses .left_sub_heading ul {
+  list-style: none;
+  color: #000;
+  margin-top: 45px;
+  word-spacing: 1%;
+}
+@media screen and (min-width: 768px) {
+  .container_scrap .container_scrap {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container_scrap .container_scrap {
+    width: 992px;
+  }
+}
+
 .health_section .health_carousel-container {
   width: 90%;
   margin: 0 auto;
@@ -746,21 +804,33 @@ a:focus {
   font-weight: 500;
 }
 
- .redirect {
-  display: flex; 
+.redirect {
+  margin-left: 80%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.redirect {
+  display: flex;
   float: right;
   width: 25px;
   height: 5px;
   rotate: 270deg;
-   margin-left: 70%; 
-  
+  margin-left: 70%;
 }
+
 .redirect a img {
   width: 20px;
 }
+
 .redirect a:hover img {
+  min-width: 45px;
   transform: scale(1.1);
-} 
+  transition: transform 0.2s ease-in-out;
+}
+
 .footer_section p {
   color: #fbfcfd;
   margin: 0;

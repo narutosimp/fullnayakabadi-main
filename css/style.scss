@@ -10,8 +10,7 @@ $primary: #10e7f4;
 }
 
 @mixin secondary-font {
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 
 @mixin hero_btn($col1, $col2, $pad1, $pad2) {
@@ -113,11 +112,10 @@ body {
         text-transform: uppercase;
         display: flex;
         margin-right: 90px;
-       
+
         img {
           width: 20px;
           margin-right: 15px;
-
         }
       }
     }
@@ -125,7 +123,7 @@ body {
     .social-container {
       img {
         margin: 0 5px;
-        margin-right:22px ;
+        margin-right: 22px;
         &.s-1 {
           width: 25px;
         }
@@ -137,8 +135,8 @@ body {
         &.s-3 {
           width: 25px;
         }
-        &.s-4{
-          width:  35px;
+        &.s-4 {
+          width: 35px;
           margin-right: 34px;
           align-items: flex-end;
         }
@@ -205,8 +203,6 @@ a:focus {
 }
 
 .login_btn-contanier {
-
-
   a {
     text-transform: uppercase;
     color: $white;
@@ -324,13 +320,13 @@ a:focus {
     background-size: 12px;
     background-position: center;
     background-color: #2c2c2c;
-    transform: translateY(-50%)translatex(0);
+    transform: translateY(-50%) translatex(0);
 
     &:hover {
       background-color: $white;
       width: 55px;
       height: 55px;
-      transform: translateY(-50%)translatex(-5px);
+      transform: translateY(-50%) translatex(-5px);
     }
   }
 
@@ -352,7 +348,6 @@ a:focus {
     }
   }
 
-
   .carousel-indicators {
     bottom: -75px;
 
@@ -369,7 +364,6 @@ a:focus {
       }
     }
   }
-
 }
 
 // end slider section
@@ -428,13 +422,13 @@ a:focus {
     background-size: 12px;
     background-position: center;
     background-color: #2c2c2c;
-    transform: translateY(-50%)translatex(0);
+    transform: translateY(-50%) translatex(0);
 
     &:hover {
       background-color: $white;
       width: 55px;
       height: 55px;
-      transform: translateY(-50%)translatex(-5px);
+      transform: translateY(-50%) translatex(-5px);
     }
   }
 
@@ -456,7 +450,6 @@ a:focus {
     }
   }
 
-
   .carousel-indicators1 {
     bottom: -75px;
 
@@ -473,13 +466,12 @@ a:focus {
       }
     }
   }
-
 }
 // end slider1 section
 
 // feature section
 .feature_section {
-  .feataure_heading{
+  .feataure_heading {
     color: black;
     font-weight: bold;
     text-align: center;
@@ -493,7 +485,6 @@ a:focus {
     justify-content: space-between;
     text-align: center;
     margin-bottom: 15px;
-
 
     .box {
       display: flex;
@@ -509,7 +500,6 @@ a:focus {
         width: 85px;
         padding: 15px;
         border-radius: 3px;
-       
 
         svg {
           width: 100%;
@@ -568,7 +558,7 @@ a:focus {
     }
 
     p {
-      margin-top:10px;
+      margin-top: 10px;
     }
 
     a {
@@ -583,9 +573,85 @@ a:focus {
     }
   }
 }
-
 // end discount section
 
+//  scrap info section start
+.container_scrap {
+  max-width: 960px;
+  margin: 0 auto;
+
+  $primary-color: #000;
+  $primary-font-size: 2rem;
+  $primary-font-weight: 800;
+  $primary-margin-top: 2.2rem;
+  $primary-word-spacing: 11px;
+  $primary-bottom-margin: .7rem;
+  
+  ul{
+    list-style: none;
+    margin-top:15px;
+  } 
+  li img{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-top: 2.1rem;
+    margin-bottom: 5rem;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+    color: rgba(52, 230, 96, 0.799);
+    word-spacing: -1px;
+
+  }
+  .section_households {
+    .right_sub_heading {
+      font-size: $primary-font-size;
+      font-weight: $primary-font-weight;
+      margin-top: $primary-margin-top;
+      margin-bottom: $primary-bottom-margin;
+      color:   $primary-color;
+
+      ul li {
+        color: $primary-color;
+         margin-top:15px;
+         word-spacing:  $primary-word-spacing;
+      }
+    }
+  }
+  .section_businesses {
+    .left_sub_heading {
+      font-size: $primary-font-size;
+      font-weight: $primary-font-weight;
+      margin-top: $primary-margin-top;
+      color:   $primary-color;
+      margin-bottom: $primary-bottom-margin;
+
+
+       ul  {
+        list-style: none;
+        color: $primary-color;
+        margin-top: 45px;
+        word-spacing:1%;
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .container_scrap {
+      width: 768px;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .container_scrap {
+      width: 992px;
+    }
+  }
+}
+//  scrap info section end
 // health section
 .health_section {
   .health_carousel-container {
@@ -662,7 +728,7 @@ a:focus {
   .owl-carousel .owl-nav.disabled {
     display: block;
 
-    &>div {
+    & > div {
       position: absolute;
       top: -65px;
       background-color: #2c2c2c;
@@ -680,7 +746,6 @@ a:focus {
     .owl-prev {
       background-image: url(../images/prev.png);
       right: 95px;
-
     }
 
     .owl-next {
@@ -688,8 +753,6 @@ a:focus {
       right: 35px;
     }
   }
-
-
 }
 
 // end health section
@@ -907,7 +970,6 @@ a:focus {
       }
 
       button {
-
         @include hero_btn($primary, $white, 7px, 60px);
       }
     }
@@ -924,15 +986,31 @@ a:focus {
   font-weight: 500;
 }
 
-  .redirect{
-    margin-left: 200px;
-float: left;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-right: 90%;
-
+.redirect {
+  margin-left: 80%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.redirect {
+  display: flex; 
+  float: right;
+  width: 25px;
+  height: 5px;
+  rotate: 270deg;
+  margin-left: 70%; 
+  
+}
+.redirect a img {
+  width: 20px;
+}
+.redirect a:hover img {
+  min-width: 45px;
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+} 
 
 .footer_section p {
   color: #fbfcfd;
