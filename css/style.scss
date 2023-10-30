@@ -668,8 +668,8 @@ a:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
-    height: 360px;
+    width: 290px;
+    height: 310px;
     justify-content: space-between;
     border: 1px solid #a6a6a6;
     margin: 20px 0;
@@ -677,7 +677,7 @@ a:focus {
 
     .img-box {
       img {
-        width: 100%;
+        width:90%;
       }
     }
 
@@ -685,7 +685,7 @@ a:focus {
       width: 100%;
 
       a {
-        @include hero_btn(#2c2c2c, $white, 8px, 15px);
+        @include hero_btn(#2c2c2c, $white, 5px, 10px);
         margin: -0.5px 0 0 -0.5px;
 
         &:hover {
@@ -697,10 +697,10 @@ a:focus {
     }
 
     .detail-box {
-      width: 100%;
+      width: 90%;
       display: flex;
       justify-content: space-between;
-      padding: 0 15px;
+      padding: 0 12px;
 
       .star_container {
         color: #f5c608;
@@ -708,6 +708,7 @@ a:focus {
 
       .text {
         display: flex;
+        font-size: 16px;
 
         h6 {
           text-transform: uppercase;
@@ -745,7 +746,7 @@ a:focus {
 
     .owl-prev {
       background-image: url(../images/prev.png);
-      right: 95px;
+      right: 905px;
     }
 
     .owl-next {
